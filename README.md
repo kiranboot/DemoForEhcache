@@ -1,5 +1,14 @@
 # DemoForEhcache
 
+Follow KCP Readme for Business and Address tables
+For Items table script
+CREATE TABLE public.items
+(
+    item_id text COLLATE pg_catalog."default" NOT NULL,
+    item_name text COLLATE pg_catalog."default" NOT NULL,
+    item_desc text COLLATE pg_catalog."default",
+    CONSTRAINT item_id_pk PRIMARY KEY (item_id)
+)
 
 ArchType
 web, JPA, Postgres
