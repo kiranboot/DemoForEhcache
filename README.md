@@ -1,7 +1,9 @@
 # DemoForEhcache
 
 Follow KCP Readme for Business and Address tables
+
 For Items table script
+
 CREATE TABLE public.items
 (
     item_id text COLLATE pg_catalog."default" NOT NULL,
